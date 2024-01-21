@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg' */
 import './App.css'
 import SideNavBar from './components/sidenavbar'
 import Navbar from './components/navbar'
+import Overview from './components/overview'
 
 function App() {
 /*   const [count, setCount] = useState(0) */
@@ -16,11 +17,14 @@ function App() {
       
 
       <div className='col-span-9'>
-          <Navbar/>
-      </div>
-      
+        <Navbar />
+        <div>
+          <Overview/>
+
+        </div>
         
-       
+        
+      </div>
     </div>
 
   )
