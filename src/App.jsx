@@ -6,6 +6,7 @@ import SideNavBar from './components/sidenavbar'
 import Navbar from './components/navbar'
 import Overview from './components/overview'
 import Transactions from './components/transactions'
+import Footer from './components/footer'
 
 function App() {
 /*   const [count, setCount] = useState(0) */
@@ -15,17 +16,13 @@ function App() {
       <div className='col-span-1'>
          <SideNavBar/>
       </div>
-      
-
       <div className='col-span-9'>
         <Navbar />
         <div>
           <Overview />
           <Transactions/>
-
         </div>
-        
-        
+        <Footer/>
       </div>
     </div>
 
